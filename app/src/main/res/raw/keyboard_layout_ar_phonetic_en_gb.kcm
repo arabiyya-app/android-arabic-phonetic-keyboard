@@ -1,0 +1,315 @@
+# Based on English (UK) keyboard layout and Arabic Phonetic Keyboard (https://arabic.omaralzabir.com/)
+
+type OVERLAY
+
+map key 43 POUND
+
+### ROW 1
+
+key GRAVE {
+    label:                              '`'
+    base:                               '`'
+    shift:                              '\u00AC'
+    ralt:                               '\u00A6'
+}
+
+key 1 {
+    label:                              '1'
+    base:                               '\u0661'
+    shift:                              '!'
+}
+
+key 2 {
+    label:                              '2'
+    base:                               '\u0662'
+    shift:                              '"'
+}
+
+key 3 {
+    label:                              '3'
+    base:                               '\u0663'
+    shift:                              '\u00A3'
+}
+
+key 4 {
+    label:                              '4'
+    base:                               '\u0664'
+    shift:                              '$'
+    ralt:                               '\u20AC'
+}
+
+key 5 {
+    label:                              '5'
+    base:                               '\u0665'
+    shift:                              '%'
+}
+
+key 6 {
+    label:                              '6'
+    base:                               '\u0666'
+    shift:                              '^'
+}
+
+key 7 {
+    label:                              '7'
+    base:                               '\u0667'
+    shift:                              '&'
+}
+
+key 8 {
+    label:                              '8'
+    base:                               '\u0668'
+    shift:                              '*'
+}
+
+key 9 {
+    label:                              '9'
+    base:                               '\u0669'
+    shift:                              '('
+}
+
+key 0 {
+    label:                              '0'
+    base:                               '\u0660'
+    shift:                              ')'
+}
+
+key MINUS {
+    label:                              '-'
+    base:                               '-'
+    shift:                              '_'
+}
+
+key EQUALS {
+    label:                              '='
+    base:                               '='
+    shift:                              '+'
+}
+
+### ROW 2
+
+key Q {
+    label:                              'Q'
+    base:                               '\u0642'
+    shift:                              '\u0626'
+}
+
+key W {
+    label:                              'W'
+    base:                               '\u0648'
+    shift:                              '\u0624'
+}
+
+key E {
+    label:                              'E'
+    base:                               '\u0639'
+    shift:                              '\u0670'
+    ralt:                               '\u00e9'
+    shift+ralt:                         '\u00c9'
+}
+
+key R {
+    label:                              'R'
+    base:                               '\u0631'
+    shift:                              '\u0653'
+}
+
+key T {
+    label:                              'T'
+    base:                               '\u062a'
+    shift:                              '\u0637'
+}
+
+key Y {
+    label:                              'Y'
+    base:                               '\u064a'
+    shift:                              '\u0649'
+}
+
+key U {
+    label:                              'U'
+    base:                               '\u064e'
+    shift:                              '\u064b'
+    ralt:                               '\u00fa'
+    shift+ralt:                         '\u00da'
+}
+
+key I {
+    label:                              'I'
+    base:                               '\u0650'
+    shift:                              '\u064d'
+    ralt:                               '\u00ed'
+    shift+ralt:                         '\u00cd'
+}
+
+key O {
+    label:                              'O'
+    base:                               '\u064f'
+    shift:                              '\u064c'
+    ralt:                               '\u00f3'
+    shift+ralt:                         '\u00d3'
+}
+
+key P {
+    label:                              'P'
+    base:                               '\u0671'
+    shift:                              '\u0622'
+}
+
+key LEFT_BRACKET {
+    label:                              '['
+    base:                               '['
+    shift:                              '{'
+}
+
+key RIGHT_BRACKET {
+    label:                              ']'
+    base:                               ']'
+    shift:                              '}'
+}
+
+### ROW 3
+
+key A {
+    label:                              'A'
+    base:                               '\u0627'
+    shift:                              '\u0623'
+    ralt:                               '\u00e1'
+    shift+ralt:                         '\u00c1'
+}
+
+key S {
+    label:                              'S'
+    base:                               '\u0633'
+    shift:                              '\u0634'
+}
+
+key D {
+    label:                              'D'
+    base:                               '\u062f'
+    shift:                              '\u0636'
+}
+
+key F {
+    label:                              'F'
+    base:                               '\u0641'
+    shift:                              '\u0642'
+}
+
+key G {
+    label:                              'G'
+    base:                               '\u063a'
+    shift:                              '\u0621'
+}
+
+key H {
+    label:                              'H'
+    base:                               '\u0647'
+    shift:                              '\u062d'
+}
+
+key J {
+    label:                              'J'
+    base:                               '\u0630'
+    shift:                              '\u062c'
+}
+
+key K {
+    label:                              'K'
+    base:                               '\u0643'
+    shift:                              '\u062e'
+}
+
+key L {
+    label:                              'L'
+    base:                               '\u0644'
+    shift:                              '\u0625'
+}
+
+key SEMICOLON {
+    label:                              ';'
+    base:                               ';'
+    shift:                              ':'
+}
+
+key APOSTROPHE {
+    label:                              '\''
+    base:                               '\''
+    shift:                              '@'
+}
+
+key POUND {
+    label:                              '#'
+    base:                               '#'
+    shift:                              '~'
+    ralt:                               '\\'
+    shift+ralt:                         '|'
+}
+
+### ROW 4
+
+key BACKSLASH {
+    label:                              '\\'
+    base:                               '\\'
+    shift:                              '|'
+}
+
+key Z {
+    label:                              'Z'
+    base:                               '\u0632'
+    shift:                              '\u0638'
+}
+
+key X {
+    label:                              'X'
+    base:                               '\u062b'
+    shift:                              '\u0629'
+}
+
+key C {
+    label:                              'C'
+    base:                               '\u0635'
+    shift:                              '\u0654'
+}
+
+key V {
+    label:                              'V'
+    base:                               '\u0652'
+    shift:                              '\u0651'
+}
+
+key B {
+    label:                              'B'
+    base:                               '\u0628'
+    shift:                              '\u0640'
+}
+
+key N {
+    label:                              'N'
+    base:                               '\u0646'
+    shift:                              '\u0655'
+}
+
+key M {
+    label:                              'M'
+    base:                               '\u0645'
+    shift:                              '\u06e2'
+}
+
+key COMMA {
+    label:                              ','
+    base:                               ','
+    shift:                              '<'
+}
+
+key PERIOD {
+    label:                              '.'
+    base:                               '.'
+    shift:                              '>'
+}
+
+key SLASH {
+    label:                              '/'
+    base:                               '/'
+    shift:                              '\u061f'
+}

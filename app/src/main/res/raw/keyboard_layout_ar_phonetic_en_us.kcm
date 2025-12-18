@@ -276,7 +276,7 @@ key M {
 
 key COMMA {
     label:                              ','
-    base:                               ','
+    base:                               '\u060c'
     shift:                              '<'
 }
 
